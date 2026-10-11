@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tara AI Study Tutor</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f0f4ff;
+      color: #1e293b;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 5px 25px #00000010;
+    }
+
+    h1 {
+      color: #4f46e5;
+    }
+
+    p {
+      line-height: 1.7;
+    }
+
+    button {
+      background: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 22px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #message {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to Tara AI Study Tutor</h1>
+
+    <p>
+      Your AI Voice Tutor and AI Book Reader project
+      is now ready to begin!
+    </p>
+
+    <p>
+      अब आप हिंदी और अंग्रेज़ी में पढ़ाई के लिए
+      अपनी वेबसाइट तैयार कर सकते हैं।
+    </p>
+
+    <button onclick="showMessage()">
+      Get Started
+    </button>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Welcome! Tara AI Study Tutor is working.";
+    }
+  </script>
+</body>
+</html>
